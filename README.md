@@ -1,4 +1,4 @@
-# PRISM-VD (Predictive Representation with Intelligent Structural Modeling for Vulnerability Detection)
+# PRISM-VD (Path-based Relational Integrated Structural Multi-modal Vulnerability Detector)
 
 This repository contains the PRISM-VD framework, a state-of-the-art vulnerability detection platform utilizing both Graph Neural Networks (GNNs) and LLM baselines. 
 
