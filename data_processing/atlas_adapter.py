@@ -471,7 +471,7 @@ def extract_universal_causal_paths(graph: nx.MultiDiGraph, disable_dsg_filter: b
     (CALL, DEREF, ENTRY, EXIT, ASSIGN, GUARD) and extracts paths between
     security-relevant structural boundaries.
     
-    Prunes the graph based on JISA 2025 DSG filtering rules to prevent noise
+    Prunes the graph based on PRISM-VD's novel DSG filtering rules to prevent noise
     and computational hangs.
     """
     # 1. Classify every node (basic)

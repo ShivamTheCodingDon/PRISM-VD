@@ -44,7 +44,7 @@ python prepare_data_uscp.py \
 ### What happens under the hood during this step?
 1. **Sanitization**: Code is cleaned, attributes are selectively stripped, and formatting is normalized.
 2. **Graph Extraction**: `atlas_adapter.py` initiates ATLAS to extract the AST, CFG, and DFG representations into a `MultiDiGraph`.
-3. **DSG Filtering**: Nodes are pruned using JISA 2025 DSG rules (retaining only `call_expression`, `if_statement`, `pointer_declarator`, etc.).
+3. **DSG Filtering**: Nodes are pruned using PRISM-VD's novel proposed DSG rules (retaining only `call_expression`, `if_statement`, `pointer_declarator`, etc.).
 4. **USCP Extraction**: AST nodes are classified into structural roles (`CALL`, `DEREF`, `ENTRY`, `EXIT`, `ASSIGN`, `GUARD`) to map causal data flow pathways between these security-relevant boundaries.
 
 ---
