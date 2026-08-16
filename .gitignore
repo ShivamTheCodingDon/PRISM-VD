@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Data and Models (Heavy Files)
+*.jsonlines
+*.log
+*.pt
+*.pth
+*.bin
+*.tar.gz
+*.csv
+output/
+bv_res_v2/
+bv_res/
+results*/
+weights*/
+
+# IDEs
+.vscode/
+.idea/
+
+temp_clang_files/

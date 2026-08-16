@@ -1,0 +1,11 @@
+=== Flawfinder Metrics ===
+Accuracy:  0.5447
+Precision: 0.4917
+Recall:    0.1405
+F1-score:  0.2185
+
+=== Cppcheck Metrics ===
+Accuracy:  0.5697
+Precision: 0.6231
+Recall:    0.1279
+F1-score:  0.2122
